@@ -1,7 +1,7 @@
 # grupozilar
 Proyecto para Inmobiliaria "Grupo Zilar " para la segunda entrega del curso Desarrollo Web de Coderhouse 
 # 💫 About Me:
-      💻Desarrollador Web💻<br> 🖲️Amante de los Videojuegos🖲️
+      💻Desarrollador Web💻🖲️Amante de los Videojuegos🖲️
 
 
 ## 🌐 Socials:
