@@ -1,0 +1,470 @@
+@font-face {
+    font-family: gotham;
+    src: url(MULTIMEDIA/FUENTES/Gotham\ Book\ Font.otf) !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
+
+//paleta de colores
+$colorceleste:#a3c9d8;
+$colorazulmarino:#04779d;
+$colorazulfuerte:#336699;
+$verdewpp:rgb(95, 150, 13);
+$azulfuerte:#224466;
+
+
+
+
+body{
+    background-color: $colorceleste;
+}
+
+
+
+.navbar {
+    background-color: #04779d !important;
+    background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+}
+
+
+.navbar-toggler {
+    border: $colorazulmarino;
+}
+
+
+.navbar-toggler i {
+    color: $colorceleste !important;
+}
+
+
+.nav-link {
+    color: $colorceleste !important;
+}
+
+.nav-link:hover {
+    color: cadetblue !important;
+}
+
+.navbar-brand {
+    color: $colorceleste !important;
+}
+
+.img{
+    height:auto;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+}
+
+.banner {
+    background-image: url(MULTIMEDIA/BANNERS/BANNERS\ -\ GRUPO\ ZILAR-03.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    text-shadow: 0 0 5px #333;
+    border-radius: none;
+    margin-bottom: 0;
+    height: 350px;
+}
+
+.nleft1 {
+    background-size:cover;
+    background-position: center;
+}
+
+
+.nleft2 {
+    
+    background-size: cover;
+    background-position: center;
+}
+
+
+.nleft3 {
+    background-size: cover;
+    background-position: center;
+}
+
+.nleft4 {
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    color: $colorceleste;
+    text-transform: uppercase;
+    
+    
+}
+
+.container-fluid{
+    color: #333;
+    background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);;
+}
+
+
+
+
+.btn {
+    background-color: $colorceleste;
+    color:$colorazulmarino;
+    border: none;
+}
+
+.btn:hover {
+    color: #333;
+    background-color: $colorazulmarino;
+}
+
+
+
+
+
+
+
+.alquiler {
+    text-align: center;
+    background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+    padding: 40px;
+    text-transform: uppercase;
+    color: $colorceleste;
+    margin-bottom: 0px;
+    border: 5px solid $colorazulmarino;
+}
+
+.item {
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/CANVA/alqui.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.item:hover {
+    border: 5px solid white;
+
+}
+
+.item2 {
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/CANVA/2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.item3 {
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/CANVA/alqui.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.item4 {
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/CANVA/3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.item5 {
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/CANVA/venta3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.item6 {
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-position: center;
+    background-size: cover;
+    background-image: url(MULTIMEDIA/CANVA/venta2.png);
+}
+
+
+.item7 {
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/CANVA/estaaa.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.item8 {
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/zilarfotos/20230624_173813.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.formulario {
+    width: 400px;
+    margin: 1 auto;
+    padding: 20px;
+    background-color: #F0F4FF;
+    display: flex;
+    flex-flow: column;
+    
+    
+
+
+}
+
+#formu {
+    text-align: center;
+    color: $colorazulfuerte;
+}
+
+.form-group {
+    margin-bottom: 50px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: $colorazulfuerte;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid $colorazulfuerte;
+    border-radius: 5px;
+}
+
+button {
+    background-color: $colorazulfuerte;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: $azulfuerte;
+    
+}
+
+
+.btn1-primary{
+background-color: $colorazulfuerte;
+color: #F0F4FF;
+margin-bottom: 2%;
+cursor: pointer;
+transition: all 1s;
+}
+
+.btn1-primary:hover{
+    transform:skew(20deg);
+}
+
+
+.ubicacion{
+    padding: 60px;
+    border: 2px solid $colorazulmarino;
+    border-radius: 2%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:0%;
+    color:#a3c9d8;
+    background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+    
+}
+
+.contacto{
+    padding: 60px;
+    border: 2px solid $colorazulmarino;
+    border-radius: 2%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:0%;
+    color:#a3c9d8;
+    background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+    
+}
+
+
+
+.conocenos{
+    text-align: center;
+    background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+    padding: 40px;
+    text-transform: uppercase;
+    color: #a3c9d8;
+    margin-bottom: 0px;
+    border: 5px solid $colorazulmarino;
+    transition: all 1s;
+}
+
+
+
+.item10{
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/zilarfotos/WhatsApp\ Image\ 2023-06-26\ at\ 19.03.16\ \(2\).jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s;
+}
+
+
+.item11{
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/zilarfotos/WhatsApp\ Image\ 2023-06-26\ at\ 19.03.17.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item12{
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/zilarfotos/13.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.item13{
+    height: 700px;
+    width: auto;
+    border: 3px solid $colorazulmarino;
+    background-image: url(MULTIMEDIA/zilarfotos/14.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#nosotros{
+    padding: 50px;
+    border: 2px solid $colorazulmarino;
+    border-radius: 2%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:$colorceleste;
+    background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+
+}
+
+
+.btn-success{
+    background-color:$azulfuerte;
+    color: white;
+    transition: all 1s;
+}
+
+.btn-success:hover{
+    transform: rotate(1turn);
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.imgc{
+    width: auto;
+    height: 500px;
+    background-image: url(MULTIMEDIA);
+    background-position: center;
+    background-size: cover;
+}
+
+.what {
+    background-color: $verdewpp;
+    height: 60px;
+    width: 60px;
+    padding: auto;
+    font-size: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 60px;
+    text-shadow: 0 0 5px black;
+    border: 3px solid white;
+}
+
+.what:visited {
+    color: white;
+}
+
+.what:link {
+    color: white;
+
+}
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+    margin-bottom: 0%;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.social-icon i {
+    transition: color 0.3s;
+}
+
+.social-icon i:hover {
+    color:#333;
+}
+
+.copyright {
+    text-align: center;
+}
