@@ -243,8 +243,8 @@ button:hover {
 
 .ubicacion {
   padding: 60px;
-  border: 2px solid #04779d;
-  border-radius: 2%;
+  border: 5px solid #224466;
+  border-radius: 10%;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 0%;
@@ -254,8 +254,8 @@ button:hover {
 
 .contacto {
   padding: 60px;
-  border: 2px solid #04779d;
-  border-radius: 2%;
+  border: 5px solid #224466;
+  border-radius: 10%;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 0%;
@@ -313,8 +313,8 @@ button:hover {
 
 #nosotros {
   padding: 50px;
-  border: 2px solid #04779d;
-  border-radius: 2%;
+  border: 5px solid #224466;
+  border-radius: 10%;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #a3c9d8;
