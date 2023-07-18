@@ -247,7 +247,7 @@ button:hover {
   border-radius: 10%;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: 0%;
+  margin-bottom: 1%;
   color: #a3c9d8;
   background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
 }
@@ -255,10 +255,10 @@ button:hover {
 .contacto {
   padding: 60px;
   border: 5px solid #224466;
+  margin-bottom: 1%;
   border-radius: 10%;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: 0%;
   color: #a3c9d8;
   background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
 }
@@ -319,6 +319,7 @@ button:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #a3c9d8;
   background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+  margin-bottom: 1%;
 }
 
 .btn-success {
