@@ -54,24 +54,19 @@
 
     <div class="contacto">En Grupo Zilar, nos esforzamos por mantener una comunicación fluida y cercana con nuestros clientes a través de nuestros excelentes servicios de contacto y presencia en redes sociales. Valoramos la importancia de estar disponibles y accesibles para responder tus consultas y brindarte asesoramiento en tiempo real. Nuestro equipo de atención al cliente está comprometido en proporcionarte un servicio amable y profesional, ya sea que nos contactes por teléfono, correo electrónico o a través de nuestras redes sociales. Además, nos enorgullece mantener una sólida presencia en las principales plataformas de redes sociales, donde compartimos información relevante sobre el mercado inmobiliario, consejos útiles para compradores y vendedores, y las últimas propiedades disponibles. Síguenos en Facebook, Instagram y Twitter para estar al tanto de las novedades y oportunidades exclusivas. En Grupo Zilar, nos aseguramos de que te mantengas conectado con nosotros de manera fácil y conveniente, aprovechando al máximo nuestros excelentes servicios de contacto y redes sociales.</div>
 
-    <form>
-        <div class="form-row">
-            <div class="col">
-                <label for="exampleFormControlInput1">Nombre y Apellido</label>
-                <input type="text" class="form-control" id="email" placeholder="EJ: Juan Perez" name="email">
-            </div>
-            <div class="col">
-                <label for="exampleFormControlInput1">Direccion de Email</label>
-                <input type="text" class="form-control" id="email" placeholder="EJ : Juanperez@gmail.com" name="email">
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Consulta</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <button type="button" class="btn btn1-primary btn-lg">Enviar</button>
-            <button type="button" class="btn btn1-primary btn-lg">Borrar</button>
-        </div>
-    </form>
+    <form action="enviar" method="post" enctype="text/plain">
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="escribe tu nombre">
+        <label for="Apellido">Apellido</label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="escribe tu apellido
+        "> <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="escribe tu mail">
+        <label>Comentario</label>
+        <textarea name="" id="" cols="20" rows="10"></textarea><br>
+        <input type="submit" id="btn1-primary">
+        <input type="reset" value="Borrar" id="btn1-primary">
+        
 
     <section>
         <div class="icons">

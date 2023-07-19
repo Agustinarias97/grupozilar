@@ -16,6 +16,7 @@ body {
 .navbar {
   background-color: #04779d !important;
   background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .navbar-toggler {
@@ -90,6 +91,7 @@ h3 {
   background-color: #a3c9d8;
   color: #04779d;
   border: none;
+  margin-bottom: 5%;
 }
 
 .btn:hover {
@@ -178,7 +180,7 @@ h3 {
   height: 700px;
   width: auto;
   border: 3px solid #04779d;
-  background-image: url(MULTIMEDIA/CANVA/20230624_173813.jpg);
+  background-image: url(MULTIMEDIA/zilarfotos/20230624_173813\ \(1\).jpg);
   background-position: center;
   background-size: cover;
 }
@@ -190,11 +192,6 @@ h3 {
   background-color: #F0F4FF;
   display: flex;
   flex-flow: column;
-}
-
-#formu {
-  text-align: center;
-  color: #336699;
 }
 
 .form-group {
@@ -216,49 +213,34 @@ textarea {
   border-radius: 5px;
 }
 
-button {
-  background-color: #336699;
-  color: #FFF;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #224466;
-}
-
-.btn1-primary {
+#btn1-primary {
   background-color: #336699;
   color: #F0F4FF;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   cursor: pointer;
   transition: all 1s;
 }
 
-.btn1-primary:hover {
-  transform: skew(20deg);
+#btn1-primary:hover {
+  background-color: #a3c9d8;
 }
 
 .ubicacion {
   padding: 60px;
-  border: 5px solid #224466;
-  border-radius: 10%;
+  border: 5px solid;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: 1%;
+  margin-bottom: 0%;
   color: #a3c9d8;
   background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
 }
 
 .contacto {
   padding: 60px;
-  border: 5px solid #224466;
-  margin-bottom: 1%;
-  border-radius: 10%;
+  border: 5px solid;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0%;
   color: #a3c9d8;
   background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
 }
@@ -313,23 +295,17 @@ button:hover {
 
 #nosotros {
   padding: 50px;
-  border: 5px solid #224466;
-  border-radius: 10%;
+  border: 5px solid;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #a3c9d8;
   background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
-  margin-bottom: 1%;
 }
 
 .btn-success {
   background-color: #224466;
   color: white;
   transition: all 1s;
-}
-
-.btn-success:hover {
-  transform: rotate(1turn);
 }
 
 .icons {
@@ -346,7 +322,7 @@ button:hover {
 }
 
 .what {
-  background-color: rgb(95, 150, 13);
+  background-color: #0df053;
   height: 60px;
   width: 60px;
   padding: auto;

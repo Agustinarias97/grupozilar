@@ -16,7 +16,7 @@
 $colorceleste:#a3c9d8;
 $colorazulmarino:#04779d;
 $colorazulfuerte:#336699;
-$verdewpp:rgb(95, 150, 13);
+$verdewpp:#0df053;
 $azulfuerte:#224466;
 
 
@@ -31,6 +31,7 @@ body{
 .navbar {
     background-color: #04779d !important;
     background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -116,6 +117,7 @@ h3 {
     background-color: $colorceleste;
     color:$colorazulmarino;
     border: none;
+    margin-bottom: 5%;
 }
 
 .btn:hover {
@@ -217,7 +219,7 @@ h3 {
     height: 700px;
     width: auto;
     border: 3px solid $colorazulmarino;
-    background-image: url(MULTIMEDIA/zilarfotos/20230624_173813.jpg);
+    background-image: url(MULTIMEDIA/zilarfotos/20230624_173813\ \(1\).jpg);
     background-position: center;
     background-size: cover;
 }
@@ -232,22 +234,14 @@ h3 {
     background-color: #F0F4FF;
     display: flex;
     flex-flow: column;
-    
-    
+    }
 
 
-}
-
-#formu {
-    text-align: center;
-    color: $colorazulfuerte;
-}
-
-.form-group {
+.form-group{
     margin-bottom: 50px;
 }
 
-label {
+label{
     display: block;
     font-weight: bold;
     color: $colorazulfuerte;
@@ -262,38 +256,26 @@ textarea {
     border-radius: 5px;
 }
 
-button {
-    background-color: $colorazulfuerte;
-    color: #FFF;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: $azulfuerte;
-    
-}
 
 
-.btn1-primary{
+#btn1-primary{
 background-color: $colorazulfuerte;
 color: #F0F4FF;
-margin-bottom: 2%;
+margin-bottom: 1%;
 cursor: pointer;
 transition: all 1s;
 }
 
-.btn1-primary:hover{
-    transform:skew(20deg);
+
+#btn1-primary:hover{
+    background-color: $colorceleste;
 }
+
 
 
 .ubicacion{
     padding: 60px;
-    border: 5px solid $azulfuerte;
-    border-radius: 10%;
+    border: 5px solid;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom:0%;
@@ -304,8 +286,7 @@ transition: all 1s;
 
 .contacto{
     padding: 60px;
-    border: 5px solid $azulfuerte;
-    border-radius: 10%;
+    border: 5px solid;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom:0%;
@@ -373,8 +354,7 @@ transition: all 1s;
 
 #nosotros{
     padding: 50px;
-    border: 5px solid $azulfuerte;
-    border-radius: 10%;
+    border: 5px solid ;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:$colorceleste;
@@ -389,9 +369,7 @@ transition: all 1s;
     transition: all 1s;
 }
 
-.btn-success:hover{
-    transform: rotate(1turn);
-}
+
 
 
 .icons{
